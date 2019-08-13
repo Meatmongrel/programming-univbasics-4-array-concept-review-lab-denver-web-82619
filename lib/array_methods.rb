@@ -13,6 +13,9 @@ def find_max_value(array)
   while num < array.count
     num += 1
     if array[num] > array[num + 1]
+      nil
+    end
+    if array [num] < array[num + 1]
       
     end
   end
