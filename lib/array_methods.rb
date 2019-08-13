@@ -15,5 +15,5 @@ end
 
 def find_min_value(array)
   array.sort!
-  return array.fetch(1)
+  return array.fetch(0)
 end
