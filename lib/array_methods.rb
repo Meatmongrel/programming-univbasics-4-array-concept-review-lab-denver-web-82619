@@ -11,7 +11,7 @@ end
 def find_max_value(array)
   # num = 0
   array.sort!
-  print array.last
+  print array.fetch(-1)
   # while num < array.count
   #   num += 1
     
